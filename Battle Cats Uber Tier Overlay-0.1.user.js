@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Thêm hạng Uber từ JSON vào bc.godfat.org với màu sắc
-// @author       bạn
+// @author       Batcatmyman/Duong
 // @match        https://bc.godfat.org/*
 // @grant        none
 // ==/UserScript==
