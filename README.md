@@ -1,20 +1,21 @@
 #Giới thiệu
-BCUber.Tier.Overlay 0.2 là userscript hiển thị badge tier, mũi tên nâng cấp và tooltip ghi chú cho các unit Uber trên trang bc.godfat.org. Bản này gộp dữ liệu từ bản cũ và bản 15.1, bổ sung collab và cải tiến cơ chế khớp tên bằng normalize để hiển thị chính xác cho tổng 326 unit. Tải release tại:
+BCUber.Tier.Overlay 0.2 là userscript hiển thị badge tier, mũi tên nâng cấp và tooltip ghi chú cho các unit Uber trên trang bc.godfat.org. Bản này gộp dữ liệu từ bản cũ và bản 15.1, bổ sung collab và cải tiến cơ chế khớp tên bằng normalize để hiển thị chính xác cho tổng 326 unit. 
+Tải release tại:
 https://github.com/batcatmyman-cpu/The-Battle-Cats-Tierlist/releases/tag/Alpha  
 File script: BCUber.Tier.Overlay0.2.js
 
-Cài đặt nhanh
+#Cài đặt nhanh
 Cài Tampermonkey trên trình duyệt (Chrome, Edge, Firefox).
 
 Mở trang Tampermonkey → Create a new script.
 
 Mở file BCUber.Tier.Overlay0.2.js từ release link, copy toàn bộ nội dung và dán vào editor Tampermonkey.
 
-Lưu script và truy cập https://bc.godfat.org/. Script sẽ tự động chèn badge lên trang.
+Lưu script và truy cập bc.godfat.org. Script sẽ tự động chèn badge lên trang.
 
 Lưu ý: nếu bạn dùng userscript manager khác (Greasemonkey, Violentmonkey) các bước tương tự.
 
-Cấu hình và tùy chỉnh
+#Cấu hình và tùy chỉnh
 Cập nhật dữ liệu tier  
 Mặc định script lấy dữ liệu từ DATA_URL trong file. Nếu bạn muốn dùng file JSON riêng, mở script và sửa dòng:
 
@@ -36,7 +37,6 @@ So khớp tên với key trong uber_tiers.json. Nếu tìm thấy, script chèn 
 Badge có màu theo tierColor để dễ phân biệt.
 
 Khắc phục sự cố
-Không thấy badge
 
 Refresh trang và xóa cache trình duyệt.
 
